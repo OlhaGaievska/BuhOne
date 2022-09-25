@@ -1,0 +1,65 @@
+@media (max-width: 800px) {
+
+    .block_buhOne_photo_main{    
+        grid-template-columns: repeat(1, 1fr);      
+    }
+    .footer_block_sale_information{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);    
+        width: 100%;
+    }    
+    
+    .footer_block_sale_informatio_90 {    
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .informatio_90 {
+        width: calc(100%/3);
+        
+    }
+
+    .informatio_90_text {
+        width: calc(100%/3);
+        
+    }
+    .block_buhOne_photo{ 
+        min-height: 360px;
+        min-width: 618px;
+    } 
+
+    .footer_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_block_text {
+        width: 100%;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .silver{
+        display: none;
+    }
+    
+    .footer_block_text_information {
+        margin-bottom: 2em;
+    }
+    
+    .footer_block_sale_informatio_90_main a{
+        display: inherit;
+        color: var(--dark-blue-color);
+        width: calc(100%/3);
+        
+    }
+
+    .block_buhOne_photo_text {
+        justify-content: flex-end;        
+    }
+    .block_buhOne_information {
+        width: 100%;
+    }
+}

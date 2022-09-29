@@ -18,9 +18,10 @@
 }
 
 .margin_width{
-    width: 60%;
+    width: 60%;    
     margin: auto;
 }
+
 
 .header{
     height: 100px;       
@@ -32,6 +33,7 @@
     justify-content: center;
     align-content: center;
     padding-top: 2em;
+    overflow: hidden;
 }
 
 .header_logo{
@@ -57,6 +59,12 @@
     text-transform: uppercase;
     font-size: 14px;    
     font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    display: none;
 }
 
 .header_menu_button{
@@ -93,9 +101,11 @@
 .block{    
     height: 100%;         
 }
+
 .block_buhOne{    
-    height: 100%;
+    max-width: 1100px;
 }
+
 .block_buhOne_information_main{
     height: 30%;    
     display: flex;
@@ -236,5 +246,9 @@ button{
 }
 
 .footer_block_sale_informatio_90_main a{
+    display: none;
+}
+
+.hidden_menu{
     display: none;
 }
